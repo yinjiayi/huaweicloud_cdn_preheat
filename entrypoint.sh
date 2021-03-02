@@ -110,5 +110,5 @@ if __name__ == "__main__":
         "urls": obs_list(obs_ak, obs_sk, obs_server, obs_bucket)
     }
     preheat_create(preheat_task)
-
+EOF
 python main.py
