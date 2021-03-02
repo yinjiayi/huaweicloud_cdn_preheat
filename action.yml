@@ -1,0 +1,9 @@
+name: "HUAWEICLOUD OBS CDN PREHEAT"
+description: "PREHEAT OBS CDN CACHE FOR HUAWEICLOUD"
+author: yinjiayi
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
