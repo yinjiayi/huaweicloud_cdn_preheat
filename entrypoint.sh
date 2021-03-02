@@ -81,6 +81,7 @@ def preheat_create(_preheat_task):
 
     conn = connection.Connection(project_id=cdn_projectId, cloud=cdn_cloud, region=cdn_region, ak=cdn_ak, sk=cdn_sk)
     task = conn.cdn.create_preheat_task(**_preheat_task)
+    print(task)
 
 def obs_list(obs_ak, obs_sk, obs_server, obs_bucket):
 
